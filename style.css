@@ -1,0 +1,1158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#signup{
+    height: 37px;
+    width: 78px;
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    transition: ease-in-out 0.4s;
+}
+
+#signup:hover{
+    background-color: #E2E2E2;
+}
+
+#btn1{
+    height: 35px;
+    width: 110px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+#btn1:hover{
+    background-color: #333333;
+}
+
+#btn2{
+    height: 35px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+#btn12{
+    height: 35px;
+    width: 70px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+#btn2:hover{
+    background-color: #333333;
+}
+#btn12:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#btn3{
+    height: 35px;
+    width: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+
+#btn3:hover{
+    background-color: #333333;
+}
+
+#btn5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 35px;
+    width: 110px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    transition: ease-in-out 0.4s;
+}
+#btn5:hover{
+    background-color: #333333;
+}
+
+.hero-section{
+    height: 97vh;
+    width: 100%;
+    background-image: url(Rider_Home_bg_desktop2x.jpg);
+}
+
+.box{
+    height: 514px;
+    width: 550px;
+    background-color: white;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.end{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#ul1{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#down{
+    font-size: 12px;
+}
+
+#ul2{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+li{
+    padding-left: 20px;
+}
+#uber{
+    font-size: 24px;
+}
+
+.line1{
+    height: 4px;
+    width: 70px;
+    background-color: black;
+    transition: all ease-in-out 0.2s;
+}
+.box1:hover>.line1{
+    transition: all ease-in-out 0.5s;
+    background-color: black;
+    width: 100%;
+}
+
+.line2{
+    height: 4px;
+    width: 10px;
+    background-color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+
+.box1:hover>.line2{
+    transition: all ease 0.6s;
+    background-color: black;
+    width: 70px;
+}
+
+.line3{
+    height: 4px;
+    width: 10px;
+    background-color: white;
+    transition: all ease-in-out 0.2s;
+}
+.box1:hover>.line3{
+    transition: all ease 0.6s;
+    background-color: black;
+    width: 70px;
+}
+.box1{
+    height: 110px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 img{
+    height: 25%;
+}
+.box1 p{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(71, 70, 70);
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.heading h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 52px;
+}
+.inputs{
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #F6F6F6;
+    height: 50px;
+    width: 450px;
+}
+
+#input{
+    background-color: #F6F6F6;
+    height: 40px;
+    width: 390px;
+    border: none;
+}
+#input::placeholder{
+    font-size: 15px;
+}
+
+.circle{
+    height: 8px;
+    width: 8px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.square{
+    height: 7px;
+    width: 7px;
+    border: 1px solid black;
+}
+.input2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #F6F6F6;
+    height: 50px;
+    width: 450px;
+}
+
+.ver-line{
+    height: 47px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    top: 291px;
+    left: 73px;
+}
+
+#send{
+    font-size: 12px;
+    color: #b4b0b0;
+}
+#request{
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#get-started{
+    height: 50px;
+    width: 140px;
+    border-radius: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#request:hover{
+     background-color: #333333; 
+}
+
+#get-started:hover{
+    background-color: #333333; 
+}
+
+#schedule:hover{
+    background-color: #E2E2E2;
+}
+#schedule{
+    height: 50px;
+    width: 170px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+#request h3{
+    font-size: 17px;
+}
+#schedule h3{
+    font-size: 17px;
+    color: #5B5B5B;
+}
+.buttons{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+.hero-section2{
+    height: 300px;
+    width: 100%;
+    background-image: url(HP-U4B-NYC-bkg.png);
+    background-position: center;
+    background-size: cover;
+}
+.text-part{
+    padding-left: 100px;
+    padding-top: 60px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-part h1{
+    font-size: 36px;
+}
+.text-part button{
+    margin-top: 20px;
+}
+
+.hero-section3{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 60px;
+}
+
+.left-section{
+    height: 370px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-section{
+    height: 370px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.top-heading h1{
+    font-size: 36px;
+    color: #333333;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.top-heading{
+    height: 30px;
+}
+
+.part1:hover>.icon{
+    position: relative;
+    left: 10px;
+    transition: ease-in-out 0.5s;
+}
+.hero-section4{
+    width: 100%;
+    color: #333333;
+    margin-bottom: 100px;
+}
+.heading1{
+    padding-left: 100px;
+    font-size: 20px;
+}
+.left{
+    width: 50%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: #333333;
+}
+.img-section{
+    display: flex;
+    padding-top: 50px;
+    padding-inline: 80px;
+    
+}
+.left h3{
+    font-size: 20px;
+    color: #5B5B5B;
+}
+
+.lower-p{
+    display: flex;
+    gap: 35px;
+    padding-top: 10px;
+    position: relative;
+    font-weight: 500;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+#p1::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0%;
+    background-color: black;
+    transition: all ease 0.7s;
+}
+#p1:hover::after{
+    width: 60%;
+}
+#p1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 60%;
+    background-color: silver;
+    transition: all ease 1s;
+}
+
+#p2::after{
+    content: "";
+    position: absolute;
+    left: 335px;
+    bottom: 0;
+    height: 1px;
+    width: 0%;
+    background-color: black;
+    transition: all ease 0.7s;
+}
+#p2:hover::after{
+    width: 33%;
+}
+#p2::before{
+    content: "";
+    position: absolute;
+    left: 335px;
+    bottom: 0;
+    height: 1px;
+    width: 33%;
+    background-color: silver;
+    transition: all ease 1s;
+}
+
+#p3::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 0%;
+    background-color: black;
+    transition: all ease 0.7s;
+}
+#p3:hover::after{
+    width: 100%;
+}
+#p3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: silver;
+    transition: all ease 1s;
+}
+
+.left1 img{
+    height: 25px;
+}
+.left1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    width: 385px;
+    height: 180px;
+    color: #333333;
+}
+
+.hero-section5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.hero-section6{
+    height: 400px;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.qr{
+    height: 190px;
+    width: 550px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.qr:hover>.icon{
+      position: relative;
+      left: 10px;
+}
+.bottom{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-inline: 90px;
+}
+
+.top{
+    height: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.hero-section7{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+    padding-bottom: 40px;
+}
+
+.part11 {
+    height: 120px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    border-bottom: 1px solid black;
+}
+.part11 h1{
+    font-size: 36px;
+}
+.part11 i{
+    font-size: 30px;
+}
+
+.part12{
+    height: 120px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    border-bottom: 1px solid black;
+}
+.part12 h1{
+    font-size: 36px;
+}
+.part12 i{
+    font-size: 30px;
+}
+
+footer{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-inline: 100px;
+}
+.uber-logo{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.ul{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+#ul-last{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 35px;
+    padding-right: 150px;
+}
+#bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-media{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 110px;
+}
+
+.social-media button{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.social-media button:hover{
+    background-color: #343232;
+}
+
+#buttons- button{
+    height: 35px;
+    width: 100px;
+}
+#buttons- button:hover{
+    background-color: #343232;
+}
+#btn-icon{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.download{
+    background-color: black;
+    width: 100%;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+.download img{
+    height: 40px;
+}
+.last-ul{
+    background-color: black;
+    color: #afafaf;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 95px;
+    padding-block: 50px;
+}
+#ul-last1{
+    display: flex;
+    list-style: none;
+}
+#list{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    
+    nav{
+        width: 100%;
+        padding-inline: 0;
+    }
+   #btn1{
+    display: none;
+   }
+   #btn2{
+    display: none;
+   }
+   #btn3{
+    display: none;
+   }
+   #btn4{
+    display: none;
+   }
+   #btn5{
+    display: none;
+   }
+   
+   .box{
+    height: 520px;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section{
+    height: 520px;
+    width: 100%;
+    background-color: black;
+}
+
+
+.heading h1{
+    padding-block: 20px;
+    text-align: center;
+    font-size: 39px;
+}
+.inputs{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+.input1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #F6F6F6;
+    height: 50px;
+    width: 95%;
+}
+
+#input{
+    background-color: #F6F6F6;
+    height: 40px;
+    width: 390px;
+    border: none;
+}
+#input::placeholder{
+    font-size: 15px;
+}
+.circle{
+    height: 9px;
+    width: 9px;
+    padding-left: 5px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.square{
+    padding-right: 5px;
+    height: 9px;
+    width: 9px;
+    border: 1px solid black;
+}
+.input2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: #F6F6F6;
+    height: 50px;
+    width: 95%;
+    margin-top: 25px;
+}
+
+.ver-line{
+    height: 47px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    top: 250px;
+    left: 52px;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 30px;
+}
+#request{
+    margin-top: 40px;
+    width: 85%;
+    margin-right: 10px;
+}
+#schedule{
+    margin-top: 10px;
+    width: 85%;
+    margin-right: 10px;
+}
+
+.text-part{
+    padding-left: 10px;
+    padding-top: 60px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-part h1{
+    font-size: 30px;
+}
+.text-part button{
+    margin-top: 20px;
+}
+.text-part p{
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+
+.hero-section3{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 0px;
+    flex-direction: column;
+    padding-inline: 20px;
+}
+.hero-section3 img{
+    height: 90px;
+}
+.hero-section3 p{
+    font-size: 12px;
+}
+.hero-section3 i{
+    font-size: 25px;
+}
+
+.left-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.right-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.part1{
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.top-heading{
+
+    position: relative;
+    right: 25px;
+    bottom: 25px;
+}
+
+.img-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-inline: 0px;
+}
+
+.left{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 0px;
+    color: #333333;
+}
+.left p{
+    font-size: 11px;
+}
+.left img{
+    height: auto;
+    width: 100%;
+}
+
+
+.heading1{
+    padding-block: 30px;
+    padding-left: 9px;
+    font-size: 11px;
+}
+
+.hero-section4{
+    padding-top: 50px;
+    height: auto;
+    width: 100%;
+}
+
+.hero-section5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    padding-left: 10px;
+}
+.left1{
+    padding-block: 20px;
+    height: 150px;
+    width: 100%;
+}
+
+.bottom{
+    height: auto;
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 10px;
+}
+.hero-section6{
+    height: auto;
+    width: 100%;
+}
+
+.top{
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+.qr{
+    height: 190px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.qr img{
+    height: 70px;
+}
+.text-area h2{
+    font-size: 20px;
+}
+.qr i{
+    font-size: 20px;
+}
+
+.hero-section7{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 0px;
+    padding-bottom: 0px;
+    padding-block: 20px;
+}
+
+
+
+.part11 {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    border-bottom: 1px solid black;
+}
+.part11 h1{
+    font-size: 16px;
+}
+.part11 i{
+    font-size: 20px;
+}
+
+.part12{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    border-bottom: 1px solid black;
+}
+.part12 h1{
+    font-size: 16px;
+}
+.part12 i{
+    font-size: 20px;
+}
+
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-inline: 0px;
+}
+.uber-logo{
+    height: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 70px;
+}
+#ul-last{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    line-height: 35px;
+    padding-right: 0px;
+}
+#bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-media{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-inline: 0px;
+}
+
+.last-ul{
+    width: 100;
+    font-size: 10px;
+}
+
+.download{
+    background-color: black;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.last-ul{
+    background-color: black;
+    color: #afafaf;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-block: 50px;
+}
+
+}
